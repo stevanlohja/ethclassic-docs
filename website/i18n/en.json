@@ -10,16 +10,7 @@
         "sidebar_label": "Beginners 🔰"
       },
       "doc2": {
-        "title": "document number 2"
-      },
-      "doc3": {
-        "title": "This is document number 3"
-      },
-      "api": {
         "title": "API"
-      },
-      "doc5": {
-        "title": "Fifth Document"
       }
     },
     "links": {
@@ -29,9 +20,8 @@
       "Blog": "Blog"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Beginners": "Beginners",
+      "APIs": "APIs"
     }
   },
   "pages-strings": {

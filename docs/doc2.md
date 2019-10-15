@@ -1,7 +1,7 @@
 ---
 id: doc2
-title: document number 2
+title: API
 ---
 
-This is a link to [another document.](doc3.md)  
-This is a link to an [external page.](http://www.example.com)
+- [Ethereum JSON RPC API](https://github.com/etclabscore/ethereum-json-rpc-specification)
+- [Web3.js Ethereum JavaScript API](https://web3js.readthedocs.io/en/v1.2.0/)
