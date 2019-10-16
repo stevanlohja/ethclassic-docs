@@ -1,52 +1,98 @@
-# Pristine
+# Ethereum Classic Technical Documentation
 
-Pristine is an open source repository in its original condition.
+<!-- project shields -->
+  <span>
+    <a target="_blank" href="https://discord.gg/S9AT3X2"><img alt="Chat on Discord" src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" /></a>
+  </span>
 
-There are a lack of repositories to start from to build community driven open source projects. Pristine is a starting point, it follows a Documentation Driven Development approach, and can be used as a resource to augment existing documentation.
+<!-- project logo w/ quick links -->
+<p align="center">
+  <img src="website/static/img/readme.png" />
+</p>
+<center>
+  <h3 align="center">Ethereum Classic Docs</h3>
 
-## How to use Pristine in your project
+  <p align="center">
+    A website for classic EthereumStack developers.
+    <br />
+    <a href="https://docs.ethereumclassic.org/">View Demo</a>
+    ·
+    <a href="https://github.com/etclabscore/ethclassic-docs/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    ·
+    <a href="https://github.com/etclabscore/ethclassic-docs/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+  </p>
+</center>
 
-There are 2 options for using pristine with your project. 
-1. Fork this repo as the start of your own, OR
-2. [follow these instructions](https://thoughts.t37.net/merging-2-different-git-repositories-without-losing-your-history-de7a06bba804) to use it on an existing repository.
+<!-- table of contents -->
+## Table of Contents
+  - [About The Project](#about-the-project)
+  - [Getting Started](#getting-started)
+      - [Prerequisites](#prerequisites)
+      - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Resources](#resources)
 
-## Documentation Driven Development
+<!-- about the project -->
+## About The Project
 
-There are many ways to drive open source development. Documenting the problem in the README gives a middle ground between technical and non-technical specifications. This allows organizing solutions to this challenge around community and documentation.
+This project is an open-source technical documentation resource for classic EthereumStack developers. This solution is live at https://docs.ethereumclassic.org. Everyone is welcomed to contribute to this project simply see [CONTRIBUTING](#contributing) for contributing guidance.
 
-> [...] a beautifully crafted library with no documentation is also damn near worthless. If your software solves the wrong problem or nobody can figure out how to use it, there’s something very bad going on.
-
-- [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html) by Tom Preson-Werner
-
-### Conventions and Specifications 
-
-Using conventions, documentation and specifications make it easier to:
-- communicate the problem you are solving
-- ease onboarding
-- build and use composable tools
-- promote open source contribution and engagement
-- promote issue and feature discussion on Github itself
-
-#### Resources
-
-- [opensource.guide](https://opensource.guide/)
-- [Github community profiles for public repositories](https://help.github.com/articles/about-community-profiles-for-public-repositories/)
-- [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
-- [pengwynn/flint](https://github.com/pengwynn/flint)
-- [Working Backwards](https://www.allthingsdistributed.com/2006/11/working_backwards.html)
-- [Literate programming](https://en.wikipedia.org/wiki/Literate_programming)
-- [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc)
-- [Inversion and The Power of Avoiding Stupidity](https://fs.blog/2013/10/inversion/)
-- [choosealicense.com](http://choosealicense.com)
-- [The Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium)
-
+<!-- getting started with the project -->
 ## Getting Started
 
-To get started, [fork](https://help.github.com/articles/fork-a-repo/) or [duplicate](https://help.github.com/articles/duplicating-a-repository/) the repository. Then edit this file and delete everything above this line.
+This project uses the _Docusaurus_ website generator. The `src` branch contains the source files, and `gh-pages` is the deployed build.
 
----
+### Prerequisites
 
-### Contributing
+- Docusaurus, read the docs at https://docusaurus.io/docs/en/
+- Node >= 8.x and/ or Yarn >= 1.5.
+
+### Installation
+
+Install docusaurus on your machine. [Need help?](https://docusaurus.io/docs/en/installation#installing-docusaurus)
+
+### Run local build
+
+To run the website locally run `npm start` in the `website/` directory. Changes will be seen in realtime at http://localhost:3000/. If changes are not shown just `npm start` again.
+
+<!-- example usage, screen shots, demos -->
+## Usage
+
+Clone _your_ fork of this repository. Ensure you're working in the `src` branch. The `src` contains two key directories, `website/` and `docs/`.
+
+- `docs/` contains Markdown documentation files.
+- `website/` site configuration, static assets, and page components.
+- `website/blog` contains blog posts.
+
+### Contribute a blog post.
+
+Fork the repo, create your blog post as a Markdowwn file in `website/blog`, and submit a Pull Request. Use existing posts as a reference, however your post should meet the following minimum requirements.
+- At the heading of your Markdown file. Please input article title, author name, and author url (twitter link).
+    ```md
+    ---
+    title: INPUT ARTICLE TITLE
+    author: INPUT AUTHOR NAME
+    authorURL: INPUT AUTHOR URL (TWITTER LINK)
+    ---
+    ```
+- Name the markdown file like so `YEAR-MM-DD-TITLE.md`, `2020-02-24-etc-to-the-moon.md`.
+
+<!-- template just leave alone  -->
+## Roadmap
+
+See the [open issues](https://github.com/etclabscore/ethclassic-docs/issues) for a list of proposed features (and known issues).
+
+<!-- template just leave alone  -->
+## Contributing
 
 How to contribute, build and release are outlined in [CONTRIBUTING.md](CONTRIBUTING.md), [BUILDING.md](BUILDING.md) and [RELEASING.md](RELEASING.md) respectively. Commits in this repository follow the [CONVENTIONAL_COMMITS.md](CONVENTIONAL_COMMITS.md) specification.
 
+## License
+
+Apache License 2.0
+
+<!-- references and additional resources  -->
+## Resources 
+- https://docs.ethereumclassic.org/
+- https://docusaurus.io/docs/en/
