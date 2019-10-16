@@ -55,9 +55,9 @@ const users = [
 const siteConfig = {
   title: 'Ethereum Classic Developers', // Title for your website.
   tagline: 'A website for classic Ethereum Stack developers.',
-  
-  url: 'https://etclabscore.github.io',
-  baseUrl: '/ethclassic-docs/',
+  url: 'https://docs.ethereumclassic.org',
+  // url: 'https://etclabscore.github.io',
+  baseUrl: '/',
   projectName: 'ethclassic-docs',
   organizationName: 'etclabscore',
   cname: 'docs.ethereumclassic.org',
