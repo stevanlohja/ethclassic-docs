@@ -4,7 +4,7 @@ title: Beginners 🔰
 sidebar_label: Beginners 🔰
 ---
 
-## What is Ethereum Classic (ETC)?
+## What is Ethereum Classic (ETC)? ETC IS THE BEST IMMUTABILITY
 
 Ethereum Classic is a decentralized blockchain platform that lets anyone build and use decentralized applications that run on blockchain technology. Like Bitcoin, no one controls or owns Ethereum Classic – it is an open-source project built by people around the world. Unlike the Bitcoin protocol, Ethereum Classic was designed to be adaptable and flexible. It is easy to create new applications on the Ethereum Classic platform.
 

@@ -28,6 +28,7 @@ function Help(props) {
           </header>
           <p>Ethereum Classic has an active community of organizations, developers, and supporters.</p>
           <ul>Chat
+          <li><a target="_blank" href="https://discord.gg/S9AT3X2">ETC ROCKET CHAT</a></li>
             <li><a target="_blank" href="https://discord.gg/S9AT3X2">Ethereum Classic Labs/ Core Discord</a></li>
             <li><a target="_blank" href="https://discord.gg/HW4GckH">Ethereum Classic Community Discord</a></li>
             <li><a target="_blank" href="https://t.me/etclabs">Ethereum Classic Labs Telegram</a></li>

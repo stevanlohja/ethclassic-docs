@@ -19,6 +19,14 @@ const users = [
       pinned: true,
     },
     {
+      caption: 'Ethernode',
+      // You will need to prepend the image path with your baseUrl
+      // if it is not '/', like: '/test-site/img/image.jpg'.
+      image: 'https://avatars0.githubusercontent.com/u/38053571?s=200&v=4',
+      infoLink: 'https://ethernode.io/',
+      pinned: true,
+    },
+    {
       caption: 'Saturn',
       // You will need to prepend the image path with your baseUrl
       // if it is not '/', like: '/test-site/img/image.jpg'.
